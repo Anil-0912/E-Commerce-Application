@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": "df4f",
+      "img": "https://cdn.pixabay.com/photo/2025/02/08/05/21/antelope-canyon-9391418_640.jpg",
+      "title": "Classic Leather Tote",
+      "price": 349,
+      "category": "sport",
+      "description": "Handcrafted full-grain leather tote with a soft structured body, roomy interior and secure zip pocket. Perfect for daily use and weekend trips — built to age beautifully."
+    },
+    {
+      "id": "a0bf",
+      "img": "https://media.istockphoto.com/id/1452281128/photo/laptop-blank-screen-on-wood-table-with-coffee-cafe-background-mockup-template-for-your-text.jpg?s=1024x1024&w=is&k=20&c=7OwExn2KaCbsGFfHHvh1WhSwavwd36JQNZD1oYSW2ow=",
+      "title": "laptop",
+      "price": "1000",
+      "category": "electronics",
+      "description": "hkjkm,mgfgcvhjkj fcghghjkgghj"
+    },
+    {
+      "id": "1374",
+      "img": "https://cdn.pixabay.com/photo/2018/05/01/13/04/miniature-3365503_640.jpg",
+      "title": "mobile",
+      "price": "200",
+      "category": "Electronics",
+      "description": "dguiokljgfyu rtfghgiuyfuvhb uf b ghi u uyuyghliuyfgu  nhyuy b y u uy oyuyfghiluhghyu uukh u ug uygu uyguioyuyfjguyuyfgufhghi uu uyu uyg uiu uguoyfhgusree5esryhjk;ouyfu"
+    }
+  ],
+  "cart": [
+    {
+      "id": "df4f",
+      "img": "https://cdn.pixabay.com/photo/2025/02/08/05/21/antelope-canyon-9391418_640.jpg",
+      "title": "Classic Leather Tote",
+      "price": 349,
+      "category": "sport",
+      "description": "Handcrafted full-grain leather tote with a soft structured body, roomy interior and secure zip pocket. Perfect for daily use and weekend trips — built to age beautifully.",
+      "quantity": 1
+    }
+  ]
+}
