@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { viewProduct } from '../Product/productThunk';
 import { addToCart } from '../Cart/cartThunk';
 
 const ViewProduct = () => {
 
-    const { products, product, loading, error } = useSelector(state => state.products)
-    const {quantity}=useSelector(state=>state.cart)
+    const { product, loading, error } = useSelector(state => state.products)
     const { id } = useParams()
     console.log(id);
     console.log(product);
@@ -26,14 +25,12 @@ const ViewProduct = () => {
         <div>
             <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-6">
                 <div className="grid md:grid-cols-2 gap-6">
-                    {/* Product Image */}
                     <img
-                        src={product.img}
+                        src={product.image}
                         alt={product.title}
                         className="w-full h-80 object-cover rounded-lg"
                     />
 
-                    {/* Product Info */}
                     <div>
                         <h2 className="text-2xl font-bold">{product.title}</h2>
                         <p className="text-gray-500 mt-2">{product.category}</p>

@@ -8,7 +8,7 @@ const AddProduct = () => {
 
   const navigate = useNavigate()
   const [formData, setFormData] = useState({
-    img: "",
+    image: "",
     title: "",
     price: "",
     category: "",
@@ -33,7 +33,6 @@ const AddProduct = () => {
   return (
     <div>
 
-      {/* formdata,handleChange,handleSubmit */}
       <Form formData={formData} handleChange={handleChange} handleSubmit={handleSubmit} />
     </div>
   )

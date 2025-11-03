@@ -1,38 +1,174 @@
 {
   "products": [
     {
-      "id": "df4f",
-      "img": "https://cdn.pixabay.com/photo/2025/02/08/05/21/antelope-canyon-9391418_640.jpg",
-      "title": "Classic Leather Tote",
-      "price": 349,
-      "category": "sport",
-      "description": "Handcrafted full-grain leather tote with a soft structured body, roomy interior and secure zip pocket. Perfect for daily use and weekend trips — built to age beautifully."
-    },
-    {
-      "id": "a0bf",
-      "img": "https://media.istockphoto.com/id/1452281128/photo/laptop-blank-screen-on-wood-table-with-coffee-cafe-background-mockup-template-for-your-text.jpg?s=1024x1024&w=is&k=20&c=7OwExn2KaCbsGFfHHvh1WhSwavwd36JQNZD1oYSW2ow=",
-      "title": "laptop",
-      "price": "1000",
+      "id": "a1b2",
+      "title": "Wireless Headphones",
+      "price": 2499,
+      "image": "https://cdn.pixabay.com/photo/2018/09/17/14/27/headphones-3683983_640.jpg",
       "category": "electronics",
-      "description": "hkjkm,mgfgcvhjkj fcghghjkgghj"
+      "description": "Noise-cancelling wireless headphones with 20-hour battery life."
     },
     {
-      "id": "1374",
-      "img": "https://cdn.pixabay.com/photo/2018/05/01/13/04/miniature-3365503_640.jpg",
-      "title": "mobile",
-      "price": "200",
-      "category": "Electronics",
-      "description": "dguiokljgfyu rtfghgiuyfuvhb uf b ghi u uyuyghliuyfgu  nhyuy b y u uy oyuyfghiluhghyu uukh u ug uygu uyguioyuyfjguyuyfgufhghi uu uyu uyg uiu uguoyfhgusree5esryhjk;ouyfu"
+      "id": "c3d4",
+      "title": "Wooden Study Table",
+      "price": 4999,
+      "image": "https://cdn.pixabay.com/photo/2019/04/15/18/46/desk-4130056_640.png ",
+      "category": "furniture",
+      "description": "Modern wooden study table with storage drawers."
+    },
+    {
+      "id": "e5f6",
+      "title": "Nike Running Shoes",
+      "price": 3599,
+      "image": "https://cdn.pixabay.com/photo/2020/12/03/10/33/shoe-5800164_640.jpg",
+      "category": "fashion",
+      "description": "Lightweight running shoes for comfort and performance."
+    },
+    {
+      "id": "g7h8",
+      "title": "Smart LED TV 43 inch",
+      "price": 23999,
+      "image": "https://cdn.pixabay.com/photo/2017/04/07/12/58/lion-2210947_1280.jpg",
+      "category": "electronics",
+      "description": "4K Smart LED TV with built-in streaming apps."
+    },
+    {
+      "id": "i9j1",
+      "title": "Leather office chair",
+      "price": 6999,
+      "image": "https://cdn.pixabay.com/photo/2019/06/18/06/01/chair-4281511_640.png",
+      "category": "furniture",
+      "description": "Ergonomic leather office chair with adjustable height."
+    },
+    {
+      "id": "k2l3",
+      "title": "iPhone 14",
+      "price": 78999,
+      "image": "https://cdn.pixabay.com/photo/2022/09/25/22/25/iphone-7479303_640.jpg",
+      "category": "electronics",
+      "description": "Latest iPhone with A16 chip and advanced dual camera."
+    },
+    {
+      "id": "m4n5",
+      "title": "Cotton Casual Shirt",
+      "price": 899,
+      "image": "https://cdn.pixabay.com/photo/2024/01/27/14/09/ai-generated-8536118_640.jpg",
+      "category": "fashion",
+      "description": "Slim-fit cotton casual shirt for daily wear."
+    },
+    {
+      "id": "o6p7",
+      "title": "Sony DSLR Camera",
+      "price": 42999,
+      "image": "https://images.unsplash.com/photo-1519181245277-cffeb31da2fb",
+      "category": "electronics",
+      "description": "24MP DSLR camera with 4K video and Wi-Fi."
+    },
+    {
+      "id": "q8r9",
+      "title": "Mixer Grinder",
+      "price": 2999,
+      "image": "https://images.unsplash.com/photo-1629907521985-624e352ca9ee",
+      "category": "home appliances",
+      "description": "750W mixer grinder with 3 stainless steel jars."
+    },
+    {
+      "id": "s1t2",
+      "title": "Analog Wrist Watch",
+      "price": 1599,
+      "image": "https://images.unsplash.com/photo-1518544801958-efcbf8a7ec10",
+      "category": "accessories",
+      "description": "Classic analog watch with leather strap."
+    },
+    {
+      "id": "u3v4",
+      "title": "Gaming Keyboard",
+      "price": 1999,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+      "category": "electronics",
+      "description": "RGB backlit mechanical gaming keyboard."
+    },
+    {
+      "id": "w5x6",
+      "title": "Bluetooth Speaker",
+      "price": 1499,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "category": "electronics",
+      "description": "Portable Bluetooth speaker with deep bass."
+    },
+    {
+      "id": "y7z8",
+      "title": "Casual Sneakers",
+      "price": 1799,
+      "image": "https://images.unsplash.com/photo-1528701800489-20be3c29701f",
+      "category": "fashion",
+      "description": "Stylish everyday sneakers for men and women."
+    },
+    {
+      "id": "p1q2",
+      "title": "Digital Alarm Clock",
+      "price": 799,
+      "image": "https://images.unsplash.com/photo-1512310604669-443f26c35f52",
+      "category": "home appliances",
+      "description": "LED screen digital alarm clock with night light."
+    },
+    {
+      "id": "r3s4",
+      "title": "Stainless Steel Water Bottle",
+      "price": 499,
+      "image": "https://images.unsplash.com/photo-1570781598335-8abe7a8525d9",
+      "category": "accessories",
+      "description": "Insulated stainless steel water bottle, 1L."
+    },
+    {
+      "id": "t5u6",
+      "title": "Wireless Mouse",
+      "price": 699,
+      "image": "https://images.unsplash.com/photo-1587829751301-dc798b83add3",
+      "category": "electronics",
+      "description": "Ergonomic wireless optical mouse with USB receiver."
+    },
+    {
+      "id": "v7w8",
+      "title": "Office Laptop Bag",
+      "price": 1299,
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7",
+      "category": "fashion",
+      "description": "Waterproof laptop bag with multiple compartments."
+    },
+    {
+      "id": "x9y1",
+      "title": "LED Table Lamp",
+      "price": 1199,
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+      "category": "home decor",
+      "description": "Rechargeable LED table lamp with brightness control."
+    },
+    {
+      "id": "z2a3",
+      "title": "Fitness Smartwatch",
+      "price": 3499,
+      "image": "https://images.unsplash.com/photo-1617042375876-b10c2f9f12e7",
+      "category": "electronics",
+      "description": "Fitness smartwatch with heart rate and step tracker."
+    },
+    {
+      "id": "b4c5",
+      "title": "Portable Power Bank",
+      "price": 1199,
+      "image": "https://images.unsplash.com/photo-1580910051074-1c7d4b4c9a5a",
+      "category": "electronics",
+      "description": "10000mAh fast-charging power bank with dual USB ports."
     }
   ],
   "cart": [
     {
-      "id": "df4f",
-      "img": "https://cdn.pixabay.com/photo/2025/02/08/05/21/antelope-canyon-9391418_640.jpg",
-      "title": "Classic Leather Tote",
-      "price": 349,
-      "category": "sport",
-      "description": "Handcrafted full-grain leather tote with a soft structured body, roomy interior and secure zip pocket. Perfect for daily use and weekend trips — built to age beautifully.",
+      "id": "o6p7",
+      "title": "Sony DSLR Camera",
+      "price": 42999,
+      "image": "https://images.unsplash.com/photo-1519181245277-cffeb31da2fb",
+      "category": "electronics",
+      "description": "24MP DSLR camera with 4K video and Wi-Fi.",
       "quantity": 1
     }
   ]

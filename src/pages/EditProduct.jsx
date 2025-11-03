@@ -15,7 +15,7 @@ const EditProduct = () => {
 
     const [formData, setFormData] = useState({
         id: product.id,
-        img: product.img,
+        image: product.image,
         title:product.title,
         price: product.price,
         category:product.category,
