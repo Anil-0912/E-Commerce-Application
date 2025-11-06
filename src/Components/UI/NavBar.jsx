@@ -1,7 +1,9 @@
 import * as React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import { useState } from 'react';
-import { FaSearch, FaShoppingCart, FaPlus } from "react-icons/fa";
+import { FaSearch, FaShoppingCart, FaPlus, FaMoon, FaSun } from "react-icons/fa";
+import { useContext } from 'react';
+import { ThemeContext } from '../Common/ThemeToggle';
 
 const NavBar = () => {
     const [search, setSearch] = useState("")
@@ -12,9 +14,11 @@ const NavBar = () => {
 
     // const searchHandle=debounce(handleChange,1000)
 
+    const {theme,handleToggle}=useContext(ThemeContext)
+
     return (
-        <div className='mt-5'>
-            <nav className="w-full bg-white shadow-md top-0 left-0 z-50">
+        <div>
+            <nav className={theme?"w-full bg-stone-900 text-white shadow-md top-0 left-0 z-50":"w-full bg-white shadow-md top-0 left-0 z-50"}>
                 <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
 
                     <Link to="/" className="text-xl font-bold">
@@ -50,10 +54,11 @@ const NavBar = () => {
                         >
                             <FaShoppingCart /> Cart
                         </Link>
+                        <button onClick={handleToggle}>{theme?<FaSun/>:<FaMoon/>}</button>
                     </div>
                 </div>
             </nav>
-            <Outlet context={{ search }} />
+            <Outlet context={{ search,theme }} />
         </div>
     );
 };

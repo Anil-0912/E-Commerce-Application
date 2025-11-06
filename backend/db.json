@@ -1,14 +1,6 @@
 {
   "products": [
     {
-      "id": "a1b2",
-      "title": "Wireless Headphones",
-      "price": 2499,
-      "image": "https://cdn.pixabay.com/photo/2018/09/17/14/27/headphones-3683983_640.jpg",
-      "category": "electronics",
-      "description": "Noise-cancelling wireless headphones with 20-hour battery life."
-    },
-    {
       "id": "c3d4",
       "title": "Wooden Study Table",
       "price": 4999,
@@ -65,14 +57,6 @@
       "description": "24MP DSLR camera with 4K video and Wi-Fi."
     },
     {
-      "id": "q8r9",
-      "title": "Mixer Grinder",
-      "price": 2999,
-      "image": "https://images.unsplash.com/photo-1629907521985-624e352ca9ee",
-      "category": "home appliances",
-      "description": "750W mixer grinder with 3 stainless steel jars."
-    },
-    {
       "id": "s1t2",
       "title": "Analog Wrist Watch",
       "price": 1599,
@@ -103,14 +87,6 @@
       "image": "https://images.unsplash.com/photo-1528701800489-20be3c29701f",
       "category": "fashion",
       "description": "Stylish everyday sneakers for men and women."
-    },
-    {
-      "id": "p1q2",
-      "title": "Digital Alarm Clock",
-      "price": 799,
-      "image": "https://images.unsplash.com/photo-1512310604669-443f26c35f52",
-      "category": "home appliances",
-      "description": "LED screen digital alarm clock with night light."
     },
     {
       "id": "r3s4",
@@ -159,17 +135,24 @@
       "image": "https://images.unsplash.com/photo-1580910051074-1c7d4b4c9a5a",
       "category": "electronics",
       "description": "10000mAh fast-charging power bank with dual USB ports."
+    },
+    {
+      "id": "b7ee",
+      "image": "",
+      "title": "mobile",
+      "price": "10000",
+      "category": "Electronics",
+      "description": "a mobile",
+      "img": "https://media.istockphoto.com/id/1452281128/photo/laptop-blank-screen-on-wood-table-with-coffee-cafe-background-mockup-template-for-your-text.jpg?s=1024x1024&w=is&k=20&c=7OwExn2KaCbsGFfHHvh1WhSwavwd36JQNZD1oYSW2ow="
+    },
+    {
+      "id": "12d4",
+      "image": "https://www.istockphoto.com/photo/laptop-blank-screen-on-wood-table-with-blurred-coffee-shop-cafe-interior-background-gm1389603578-446846126?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner-popular_media&utm_term=laptop",
+      "title": "laptop",
+      "price": "20000",
+      "category": "Electronics",
+      "description": "laptop"
     }
   ],
-  "cart": [
-    {
-      "id": "o6p7",
-      "title": "Sony DSLR Camera",
-      "price": 42999,
-      "image": "https://images.unsplash.com/photo-1519181245277-cffeb31da2fb",
-      "category": "electronics",
-      "description": "24MP DSLR camera with 4K video and Wi-Fi.",
-      "quantity": 1
-    }
-  ]
+  "cart": []
 }

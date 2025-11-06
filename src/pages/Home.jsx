@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { deleteProduct, fetchProducts } from '../Product/productThunk'
 import { setProduct } from '../Product/productSlice'
@@ -7,7 +7,7 @@ import Card from '../Components/Common/Card'
 
 const Home = () => {
 
-  const { search } = useOutletContext() || { search: "" };
+  const { search,theme } = useOutletContext() || { search: "" };
   const { products, product, loading, error } = useSelector(state => state.products)
   const dispatch = useDispatch()
 
@@ -16,6 +16,7 @@ const Home = () => {
   }, [dispatch])
 
   console.log(products);
+  
   const handleDelete = (id) => {
     dispatch(deleteProduct(id))
     dispatch(fetchProducts())
@@ -37,12 +38,16 @@ const Home = () => {
   );
 
   console.log(filteredProducts);
+      // const {theme}=useContext(ThemeContext)
+  
 
 return (
-  <div className='mt-10'>
-    <Card products={filteredProducts} handleDelete={handleDelete} handleProduct={handleProduct} ></Card>
+  <div className={`${theme?'bg-stone-600':'bg-blue-100'}`}>
+    
+    <Card products={filteredProducts} theme={theme} handleDelete={handleDelete} handleProduct={handleProduct} ></Card>
   </div>
 )
 }
 
 export default Home
+

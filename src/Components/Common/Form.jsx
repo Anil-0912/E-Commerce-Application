@@ -13,7 +13,7 @@ const Form = ({formData,handleChange,handleSubmit}) => {
 
         <div className="mb-4">
           <label className="block text-gray-700 font-medium mb-1">Image URL</label>
-          <input type="text" placeholder="Enter image URL" name='img' value={formData.image} className="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500" onChange={handleChange} required />
+          <input type="text" placeholder="Enter image URL" name='image' value={formData.image} className="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500" onChange={handleChange}  />
         </div>
 
         <div className="mb-4">
@@ -38,7 +38,7 @@ const Form = ({formData,handleChange,handleSubmit}) => {
           <textarea placeholder="Enter product description" name='description' value={formData.description} className="w-full border border-gray-300 rounded-lg p-2 h-24 focus:outline-none focus:ring-2 focus:ring-blue-500" onChange={handleChange} required></textarea>
         </div>
 
-        <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+        <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition cursor-pointer">
           Submit
         </button>
       </form>
