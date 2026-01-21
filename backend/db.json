@@ -9,14 +9,6 @@
       "description": "Modern wooden study table with storage drawers."
     },
     {
-      "id": "e5f6",
-      "title": "Nike Running Shoes",
-      "price": 3599,
-      "image": "https://cdn.pixabay.com/photo/2020/12/03/10/33/shoe-5800164_640.jpg",
-      "category": "fashion",
-      "description": "Lightweight running shoes for comfort and performance."
-    },
-    {
       "id": "g7h8",
       "title": "Smart LED TV 43 inch",
       "price": 23999,
@@ -137,15 +129,6 @@
       "description": "10000mAh fast-charging power bank with dual USB ports."
     },
     {
-      "id": "b7ee",
-      "image": "",
-      "title": "mobile",
-      "price": "10000",
-      "category": "Electronics",
-      "description": "a mobile",
-      "img": "https://media.istockphoto.com/id/1452281128/photo/laptop-blank-screen-on-wood-table-with-coffee-cafe-background-mockup-template-for-your-text.jpg?s=1024x1024&w=is&k=20&c=7OwExn2KaCbsGFfHHvh1WhSwavwd36JQNZD1oYSW2ow="
-    },
-    {
       "id": "12d4",
       "image": "https://www.istockphoto.com/photo/laptop-blank-screen-on-wood-table-with-blurred-coffee-shop-cafe-interior-background-gm1389603578-446846126?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner-popular_media&utm_term=laptop",
       "title": "laptop",
@@ -154,5 +137,15 @@
       "description": "laptop"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "g7h8",
+      "title": "Smart LED TV 43 inch",
+      "price": 23999,
+      "image": "https://cdn.pixabay.com/photo/2017/04/07/12/58/lion-2210947_1280.jpg",
+      "category": "electronics",
+      "description": "4K Smart LED TV with built-in streaming apps.",
+      "quantity": 1
+    }
+  ]
 }

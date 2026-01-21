@@ -1,0 +1,86 @@
+Home Page
+
+import React, { useContext, useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { deleteProduct, fetchProducts } from '../Product/productThunk'
+import { setProduct } from '../Product/productSlice'
+import { useOutletContext } from 'react-router-dom'
+import Card from '../Components/Common/Card'
+
+const Home = () => {
+
+  const { search,theme } = useOutletContext() || { search: "" };
+  const { products, product, loading, error } = useSelector(state => state.products)
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(fetchProducts())
+  }, [dispatch])
+
+  // console.log(products);
+  
+  const handleDelete = (id) => {
+    dispatch(deleteProduct(id))
+    dispatch(fetchProducts())
+  }
+
+  const handleProduct = (data) => {
+    dispatch(setProduct(data))
+  }
+
+  const productData = products.map(data => {
+        const searchText = Object.values(data).map(item => {
+            return String(item)
+        }).join(" ").toLowerCase()
+        return { ...data, searchText: searchText }
+    })
+
+  const filteredProducts = products.filter((item) =>
+    item.title.toLowerCase().includes(search.toLowerCase())
+  );
+
+      // const {theme}=useContext(ThemeContext)
+  
+
+return (
+  <div className={` ${theme?'bg-stone-600':'bg-blue-100'}`}>
+    
+    <Card products={filteredProducts} theme={theme} handleDelete={handleDelete} handleProduct={handleProduct} ></Card>
+  </div>
+)
+}
+
+export default Home
+
+
+
+
+<div>
+        <button onClick={prev}>prev</button>
+        {
+          [...Array(totalPage)].map((_, index) => (
+            <button key={index} onClick={()=>btns(index)}>{index + 1}</button>
+          ))
+        }
+        <button onClick={(next)}>next</button>
+      </div>
+
+
+const totalPage = Math.ceil(products.length / 9);
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const startIndex = (currentPage - 1) * 9;
+  const endIndex = startIndex + 9;
+  const productPerPage = products.slice(startIndex, endIndex);
+
+  const prev = () => {
+    if (currentPage > 1) setCurrentPage((prev) => prev - 1);
+  };
+
+  const next = () => {
+    if (currentPage !== totalPage) setCurrentPage((prev) => prev + 1);
+  };
+
+  const btns = (index) => {
+    setCurrentPage(index + 1);
+  };

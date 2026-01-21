@@ -7,12 +7,9 @@ import { Provider } from 'react-redux'
 import store from '../config/store'
 import ThemeToggle from './Components/Common/ThemeToggle'
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <Provider store={store}>
-    <ThemeToggle>
-      <RouterProvider router={router} >
-      <App/>
-    </RouterProvider>
-    </ThemeToggle>
+    <RouterProvider router={router} />
   </Provider>
-)
+);
+
